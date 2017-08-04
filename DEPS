@@ -158,14 +158,6 @@ hooks = [
     'action': ['python', 'src/build/vs_toolchain.py', 'update'],
   },
   {
-    'name': 'download_android_tools',
-    'pattern': '.',
-    'action': [
-        'python',
-        'src/tools/android/download_android_tools.py',
-    ],
-  },
-  {
     'name': 'buildtools',
     'pattern': '.',
     'action': [
